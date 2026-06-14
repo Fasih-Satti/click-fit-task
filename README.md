@@ -1,35 +1,35 @@
 # Click Fit - Fitness Web Application
 
+## 🌐 Live Demo
+👉 https://click-fit-task-hwir9vbct-fasih-sattis-projects.vercel.app
+
+## Author
+Designed and Developed by **Fasih Ur Rehman**
+
 ## Overview
 Click Fit is a premium, single page fitness web application developed as a technical task for **On Wave Group**. It features a modern, high-contrast light theme, smooth CSS animations, and full responsiveness across all devices.
 
 ## Features & Requirements Met
 - **Premium UI & Animations:** Built with HTML, CSS, Bootstrap 5, and jQuery, featuring glassmorphism, advanced navigation, and micro-animations.
-- **Live API Integration:** Dynamically fetches data from a public REST API (`https://api.restful-api.dev/objects`) on page load and elegantly formats the response into UI cards. Includes robust network fallbacks.
-- **Node.js Image Uploads:** Contains a functional drag and drop/click-to-browse upload area. Images are processed by a Node.js (Express & Multer) backend and stored securely in the local `upload_images` folder without relying on cloud services.
-- **MySQL Integration Ready:** Includes a visual signup flow on the frontend, which conceptually ties into the provided `database/clickfit_users.sql` script (containing the `users` table and `addUser` stored procedure).
-- **Comprehensive Documentation:** A programmatically generated Word Document detailing the project steps is included in the `docs` folder.
+- **Live API Integration:** Dynamically fetches data from a public REST API (`https://api.restful-api.dev/objects`) on page load and formats the response into UI cards.
+- **Node.js Image Uploads:** Drag & drop upload system using Express & Multer backend.
+- **MySQL Integration Ready:** Frontend signup flow linked conceptually with MySQL script.
+- **Documentation:** Includes project documentation in `docs` folder.
 
 ## Technologies Used
-- **Frontend:** HTML5, CSS3 (Custom Light Theme), Bootstrap 5, jQuery, FontAwesome
-- **Backend:** Node.js, Express.js, Multer (for file handling)
-- **Database Scripting:** MySQL
+- Frontend: HTML5, CSS3, Bootstrap 5, jQuery, FontAwesome  
+- Backend: Node.js, Express.js, Multer  
+- Database: MySQL  
 
 ## How to Run Locally
-1. **Clone the repository:**
+1. Clone repo:
    `git clone https://github.com/Fasih-Satti/click-fit-task.git`
 
-2. **Navigate to the directory:**
-   `cd click-fit-task`
-
-3. **Install dependencies:**
+2. Install dependencies:
    `npm install`
 
-4. **Start the server:**
+3. Run server:
    `npm start`
 
-5. **View the application:**
-   Open your browser and navigate to `http://localhost:3000`
-
-## Author
-Designed and Developed by **Fasih Ur Rehman**
+4. Open:
+   `http://localhost:3000`
