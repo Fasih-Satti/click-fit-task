@@ -1,0 +1,16 @@
+{
+  "name": "click-fit",
+  "version": "1.0.0",
+  "description": "A sporty one-page fitness website with image uploads and MySQL script",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "docx": "^9.7.1",
+    "express": "^4.21.2",
+    "form-data": "^4.0.0",
+    "multer": "^2.0.2",
+    "node-fetch": "^3.3.2"
+  }
+}

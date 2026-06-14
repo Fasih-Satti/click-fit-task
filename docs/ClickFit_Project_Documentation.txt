@@ -1,0 +1,22 @@
+Click Fit Project Documentation
+
+Overview:
+This website is a single-page fitness-themed landing page built with HTML, CSS, Bootstrap, jQuery, and a Node.js upload backend.
+
+Steps completed:
+1. Created the landing page layout with hero section, feature cards, and upload area.
+2. Added a jQuery AJAX call to the public REST API and displayed the data.
+3. Built a Node.js backend that accepts image uploads and stores them in the upload_images folder.
+4. Added a MySQL script to create users table and addUser stored procedure.
+5. Included instructions to run the project locally.
+
+Run locally:
+- Install dependencies: npm install
+- Start server: npm start
+- Open: http://localhost:3000
+
+Notes:
+- Uploaded images are kept in the upload_images folder in the project root.
+- The database script is at: database/clickfit_users.sql
+
+Contact: devjob@onwavegroup.com

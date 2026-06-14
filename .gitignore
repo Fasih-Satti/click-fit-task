@@ -1,0 +1,4 @@
+node_modules
+upload_images/*
+!upload_images/.gitkeep
+.DS_Store
